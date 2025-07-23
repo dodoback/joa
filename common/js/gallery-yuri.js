@@ -1,7 +1,7 @@
    const photos = [
       { src: "../images/yuri/1.png", desc: "볼륨 매직 시술" },
       { src: "../images/yuri/1.png", desc: "레이어드 C컬펌" },
-      { src: "../images/yuri/1.png", desc: "볼륨 매직 시술" },
+      { src: "../images/yuri/3.png", desc: "볼륨 매직 시술" },
       { src: "../images/yuri/2.png", desc: "레이어드 C컬펌" },
       { src: "../images/yuri/2.png", desc: "볼륨 매직 시술" },
       { src: "../images/yuri/2.png", desc: "레이어드 C컬펌" },
