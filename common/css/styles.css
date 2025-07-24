@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cafe24Lovingu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
@@ -72,11 +88,12 @@ body {
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
   color: #444;
+  font-family: 'Cafe24Lovingu';
 }
 
 .image-grid {
@@ -228,4 +245,10 @@ a {
 }
 
 
+.profile-text h2 {
+font-family: 'Ownglyph_ParkDaHyun';
+}
 
+.profile-text p {
+  font-family: 'Ownglyph_ParkDaHyun';
+}
