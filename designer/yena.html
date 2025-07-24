@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,38 +10,38 @@
 </head>
 <style>
   /* 예나 디자이너 소개 섹션 */
-.designer-profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
-  text-align: center;
-}
+  .designer-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 
-.profile-photo {
-  width: 260px;
-  height: 324px;
-  border-radius: 0%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+  .profile-photo {
+    width: 260px;
+    height: 324px;
+    border-radius: 0%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 
-.profile-text h2 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin: 0.5rem 0;
-  color: #333;
-}
+  .profile-text h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    color: #333;
+  }
 
-.profile-text p {
-  font-size: 1rem;
-  color: #666;
-  max-width: 500px;
-  line-height: 1.5;
-}
-
+  .profile-text p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 500px;
+    line-height: 1.5;
+  }
 </style>
+
 <body>
   <header class="header">
     <a href="../index.html">
@@ -53,34 +54,34 @@
       <span onclick="toggleMenu()">✕</span>
     </div>
     <ul>
-      <li><a href="suin.html">수인</a></li>
-      <li><a href="gaeul.html">가을</a></li>
       <li><a href="dahye.html">다혜</a></li>
+      <li><a href="hyelin.html">혜린</a></li>
+      <li><a href="gaeul.html">가을</a></li>
       <li><a href="sua.html">수아</a></li>
       <li><a href="yena.html">예나</a></li>
-      <li><a href="hyelin.html">혜린</a></li>
-      <li><a href="yeli.html">예리</a></li>
+      <li><a href="suin.html">수인</a></li>
       <li><a href="seonu.html">선우</a></li>
+      <li><a href="yeli.html">예리</a></li>
     </ul>
   </nav>
   <main class="main-content">
     <!-- 👇 예나 디자이너 소개 섹션 추가 -->
-  <section class="designer-profile">
-    <img src="../images/yena/1.png" alt="예나 디자이너 프로필" class="profile-photo" />
-    <div class="profile-text">
-      <h2>디자이너 예나</h2>
-      <p>
-        감각적인 스타일링과 섬세한 손길로 고객님의 아름다움을 완성해드립니다.
-        고객 한 분, 한 분의 개성을 살리는 헤어 디자인을 추구합니다.
-      </p>
-    </div>
-  </section>
+    <section class="designer-profile">
+      <img src="../images/yena/1.png" alt="예나 디자이너 프로필" class="profile-photo" />
+      <div class="profile-text">
+        <h2>디자이너 예나</h2>
+        <p>
+          감각적인 스타일링과 섬세한 손길로 고객님의 아름다움을 완성해드립니다.
+          고객 한 분, 한 분의 개성을 살리는 헤어 디자인을 추구합니다.
+        </p>
+      </div>
+    </section>
     <h1 class="section-title">예나 디자이너 시술 갤러리</h1>
     <div id="gallery-container"></div>
     <div id="pagination" class="pagination"></div>
   </main>
-  
- <!-- 전체화면 이미지 팝업 -->
+
+  <!-- 전체화면 이미지 팝업 -->
   <div id="fullscreenOverlay" class="fullscreen-overlay">
     <span class="close-btn" onclick="closeFullscreen()">&times;</span>
     <img id="fullscreenImage" src="" alt="전체 사진">
@@ -88,8 +89,9 @@
   </div>
 
 
-  
+
   <script src="../common/js/menu.js"></script>
   <script src="../common/js/gallery-yena.js"></script>
 </body>
+
 </html>
